@@ -2,6 +2,8 @@ package abool
 
 import "sync/atomic"
 
+// AtomicBool
+// Boolean... atomicly.
 type AtomicBool uint32
 
 // New creates AtomicBool with default set to false.
